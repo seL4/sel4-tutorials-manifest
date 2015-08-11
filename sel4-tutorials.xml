@@ -51,10 +51,10 @@ remote="seL4"
 <project name="libutils.git" path="libs/libutils"/>
 
 <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current">
-    <linkfile src="Makefile-sel4" dest="Makefile"/>
-    <linkfile src="Kbuild-sel4" dest="Kbuild"/>
-    <linkfile src="Kconfig-sel4" dest="Kconfig"/>
-    <linkfile src="configs-sel4" dest="configs"/>
+    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
+    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
+    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
+    <linkfile src="build-config/configs-sel4" dest="configs"/>
     <linkfile src="apps/hello-0" dest="apps/hello-0"/>
     <linkfile src="apps/hello-1" dest="apps/hello-1"/>
     <linkfile src="apps/hello-2" dest="apps/hello-2"/>
