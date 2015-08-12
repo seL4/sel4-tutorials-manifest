@@ -55,12 +55,11 @@ remote="seL4"
     <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
     <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
     <linkfile src="build-config/configs-sel4" dest="configs"/>
-    <linkfile src="solutions/hello-0" dest="apps/hello-0"/>
     <linkfile src="solutions/hello-1" dest="apps/hello-1"/>
     <linkfile src="solutions/hello-2" dest="apps/hello-2"/>
     <linkfile src="solutions/hello-3" dest="apps/hello-3"/>
     <linkfile src="solutions/hello-4" dest="apps/hello-4"/>
-    <linkfile src="solutions/hello-4-apps" dest="apps/hello-4-apps"/>
+    <linkfile src="solutions/hello-4-app" dest="apps/hello-4-app"/>
 </project>
 
 <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
