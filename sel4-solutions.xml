@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     Copyright 2014, NICTA
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(NICTA_BSD)
+  -->
+
+<manifest>
+
+<remote name="current"
+fetch="."
+/>
+
+
+<remote name="seL4-projects"
+fetch="../seL4-projects"
+/>
+
+<remote name="seL4"
+fetch="../seL4"
+/>
+
+<default revision="master"
+remote="seL4"
+/>
+
+<project name="seL4.git" path="kernel">
+    <linkfile src="libsel4" dest="libs/libsel4"/>
+</project>
+<project name="common-tool.git" path="tools/common"/>
+<project name="kbuild-tool.git" path="tools/kbuild"/>
+<project name="elfloader-tool.git" path="tools/elfloader"/>
+<project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
+<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
+<project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
+<project name="libsel4allocman.git" path="libs/libsel4allocman"/>
+<project name="libsel4vka.git" path="libs/libsel4vka"/>
+<project name="libsel4vspace.git" path="libs/libsel4vspace"/>
+<project name="libsel4utils.git" path="libs/libsel4utils"/>
+<project name="libcpio.git" path="libs/libcpio"/>
+<project name="libelf.git" path="libs/libelf"/>
+<project name="libsel4simple.git" path="libs/libsel4simple"/>
+<project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
+<project name="libsel4simple-stable.git" path="libs/libsel4simple-stable"/>
+<project name="libplatsupport.git" path="libs/libplatsupport"/>
+<project name="libutils.git" path="libs/libutils"/>
+
+<project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current">
+    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
+    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
+    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
+    <linkfile src="build-config/configs-sel4" dest="configs"/>
+    <linkfile src="solutions/hello-0" dest="apps/hello-0"/>
+    <linkfile src="solutions/hello-1" dest="apps/hello-1"/>
+    <linkfile src="solutions/hello-2" dest="apps/hello-2"/>
+    <linkfile src="solutions/hello-3" dest="apps/hello-3"/>
+    <linkfile src="solutions/hello-4" dest="apps/hello-4"/>
+    <linkfile src="solutions/hello-4-apps" dest="apps/hello-4-apps"/>
+</project>
+
+<project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
+
+</manifest>
+
