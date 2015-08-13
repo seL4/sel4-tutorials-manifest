@@ -62,6 +62,7 @@
     <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
     <project name="libsel4vka.git" path="libs/libsel4vka"/>
     <project name="libsel4debug.git" path="libs/libsel4debug"/>
+    <project name="libsel4bench.git" path="libs/libsel4bench"/>
     <project name="libutils.git" path="libs/libutils"/>
     <project name="libsel4simple.git" path="libs/libsel4simple"/>
     <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
