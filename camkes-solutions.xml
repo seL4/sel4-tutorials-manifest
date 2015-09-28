@@ -72,6 +72,7 @@
     <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current">
         <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
         <linkfile src="build-config/configs-camkes" dest="configs"/>
+        <linkfile src="solutions/hello-camkes-0" dest="apps/hello-camkes-0"/>
         <linkfile src="solutions/hello-camkes-1" dest="apps/hello-camkes-1"/>
         <linkfile src="solutions/hello-camkes-2" dest="apps/hello-camkes-2"/>
     </project>
