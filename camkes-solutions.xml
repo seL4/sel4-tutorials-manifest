@@ -75,6 +75,7 @@
         <linkfile src="solutions/hello-camkes-0" dest="apps/hello-camkes-0"/>
         <linkfile src="solutions/hello-camkes-1" dest="apps/hello-camkes-1"/>
         <linkfile src="solutions/hello-camkes-2" dest="apps/hello-camkes-2"/>
+        <linkfile src="solutions/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
     </project>
 
     <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
