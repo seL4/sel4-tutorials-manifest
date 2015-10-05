@@ -62,6 +62,8 @@ remote="seL4"
     <linkfile src="solutions/hello-4-app" dest="apps/hello-4-app"/>
     <linkfile src="solutions/hello-timer" dest="apps/hello-timer"/>
     <linkfile src="solutions/hello-timer-client" dest="apps/hello-timer-client"/>
+    <linkfile src="solutions/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
+    <linkfile src="solutions/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
 </project>
 
 <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
