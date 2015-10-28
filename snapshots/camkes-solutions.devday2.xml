@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="current"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="../seL4-projects" name="seL4-projects"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes" revision="f8515b2d2906faa04959818896e5ea26b3f8a70c" upstream="master">
+    <linkfile dest="Makefile" src="toplevel.mk"/>
+    <linkfile dest="Kbuild" src="Kbuild"/>
+    <linkfile dest="README.md" src="docs/index.md"/>
+    <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
+  </project>
+  <project name="capDL-tool.git" path="tools/capDL" revision="394ae0df8c5f3e4a660c7232d2e3dbd747389b0f" upstream="master"/>
+  <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="4fea0390c3ce4061c6a3cb9352daf037bf40426d" upstream="master"/>
+  <project name="common-tool.git" path="tools/common" revision="31c8a392c613e5eaaeb54afd14d9737f8dd469aa" upstream="master"/>
+  <project name="elfloader-tool.git" path="tools/elfloader" revision="5862c64b09a1b4bf6bfd37d7955023de9655f2bb" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="6f1fd1932e396eb5e6caa971a97c0f8876494394" upstream="master"/>
+  <project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb" upstream="master"/>
+  <project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d" upstream="master"/>
+  <project name="libelf.git" path="libs/libelf" revision="5bbbc98166395b896cef2be7a49ba01a751e7c22" upstream="master"/>
+  <project name="libplatsupport.git" path="libs/libplatsupport" revision="c26dc33c4544f36440df96158b85ee896aa8b006" upstream="master"/>
+  <project name="libsel4bench.git" path="libs/libsel4bench" revision="0342ca760b1eb00dfb9eac936ac5ea4432ffe4bf" upstream="master"/>
+  <project name="libsel4debug.git" path="libs/libsel4debug" revision="d1c98b75fd19c70544b9d85b53935b52185a36c5" upstream="master"/>
+  <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="86f784e473fb93d7cd686461cd36a34a66c016af" upstream="master"/>
+  <project name="libsel4muslcsys.git" path="libs/libsel4muslccamkes" revision="107d31fe308809a7e7de6ffc40a13d7ef6a6c9b9" upstream="camkes"/>
+  <project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="8e90f7e909999d4d430656d33bd4f1a6ed232d1a" upstream="master"/>
+  <project name="libsel4simple-default.git" path="libs/libsel4simple-default" revision="9d1bb9ba9dff25b9650b9d95bcfd9f6be00d9eaf" upstream="master"/>
+  <project name="libsel4simple.git" path="libs/libsel4simple" revision="7f1d3ba74ffcaaa8a41c4f2fbc92d292c319e339" upstream="master"/>
+  <project name="libsel4sync.git" path="libs/libsel4sync" revision="44fcfaa7b4f4c0f363fb5572f7617db94c347fd2" upstream="master"/>
+  <project name="libsel4utils.git" path="libs/libsel4utils" revision="fb5c453e1f90b6d9552e6538618fc4468e83ff1a" upstream="master"/>
+  <project name="libsel4vka.git" path="libs/libsel4vka" revision="108582a3988317fd804122a79b970320622bc316" upstream="master"/>
+  <project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707" upstream="master"/>
+  <project name="libutils.git" path="libs/libutils" revision="14cb329788277119560c67d871d623444bdb2ccc" upstream="master"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="b2ce4c3eb155d24007ea60ad3939af492bfa41ec" upstream="sel4"/>
+  <project name="pruner.git" path="tools/pruner" revision="c1f6664f7f0bc04ac60b5e8b41200b1a09da7eda" upstream="master"/>
+  <project name="python-capdl-tool.git" path="tools/python-capdl" revision="8374e8b47eba24f9125b1714b4642f3be85b684a" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="f2b2301aa213dfef714c0af60950f842e5e878ed" upstream="master">
+    <linkfile dest="libs/libsel4" src="libsel4"/>
+  </project>
+  <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current" revision="09e22e73dbbf53e02a7116aca3ea0526feb444d5" upstream="master"/>
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="29e2dac5520787cf11c9f2a268fcec7d48db7648" upstream="master">
+    <linkfile dest="Kconfig" src="build-config/Kconfig-camkes"/>
+    <linkfile dest="configs" src="build-config/configs-camkes"/>
+    <linkfile dest="apps/hello-camkes-0" src="solutions/hello-camkes-0"/>
+    <linkfile dest="apps/hello-camkes-1" src="solutions/hello-camkes-1"/>
+    <linkfile dest="apps/hello-camkes-2" src="solutions/hello-camkes-2"/>
+    <linkfile dest="apps/hello-camkes-timer" src="solutions/hello-camkes-timer"/>
+  </project>
+</manifest>
