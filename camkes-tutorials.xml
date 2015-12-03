@@ -45,6 +45,7 @@
 
     <!-- seL4-specific libraries -->
     <project name="seL4_libs.git" path="projects/seL4_libs">
+        <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
