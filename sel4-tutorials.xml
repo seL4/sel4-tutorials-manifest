@@ -60,7 +60,7 @@ remote="seL4"
 </project>
 
 <!-- seL4-independent libraries -->
-<project name="util_libs.git" path="projects/util_libs">
+<project name="util_libs.git" path="projects/util_libs" revision="3.0.x-compatible">
     <linkfile src="libcpio" dest="libs/libcpio" />
     <linkfile src="libelf"  dest="libs/libelf" />
     <linkfile src="libplatsupport" dest="libs/libplatsupport" />
