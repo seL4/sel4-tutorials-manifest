@@ -23,6 +23,7 @@ There are four key manifests here, they will check out relevant repositories and
 [`camkes-solutions.xml`](camkes-solutions.xml)
 - solutions for CAmkES exercises. 
 
+The most recently released versions of seL4, CAmkES and user level libraries will be checked out.
 
 To use a manifest do (for example, using `sel4-tutorials.xml`):
 
