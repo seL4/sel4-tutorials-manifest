@@ -29,22 +29,22 @@ remote="seL4"
 />
 
 <!-- the seL4 kernel -->
-<project name="seL4.git" path="kernel" revision="refs/tags/3.0.0">
+<project name="seL4.git" path="kernel" revision="refs/tags/3.2.0">
     <linkfile src="libsel4" dest="libs/libsel4"/>
 </project>
 
 <!-- tools for building -->
-<project name="seL4_tools.git" path="projects/tools" revision="3.0.x-compatible">
+<project name="seL4_tools.git" path="projects/tools" revision="3.2.x-compatible">
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
 </project>
 
 <!-- C library -->
-<project name="musllibc.git" path="libs/libmuslc" revision="3.0.x-compatible"/>
+<project name="musllibc.git" path="libs/libmuslc" revision="3.2.x-compatible"/>
 
 <!-- seL4-specific libraries -->
-<project name="seL4_libs.git" path="projects/seL4_libs" revision="3.0.x-compatible">
+<project name="seL4_libs.git" path="projects/seL4_libs" revision="3.2.x-compatible">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
     <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
@@ -59,7 +59,7 @@ remote="seL4"
 </project>
 
 <!-- seL4-independent libraries -->
-<project name="util_libs.git" path="projects/util_libs" revision="3.0.x-compatible">
+<project name="util_libs.git" path="projects/util_libs" revision="3.2.x-compatible">
     <linkfile src="libcpio" dest="libs/libcpio" />
     <linkfile src="libelf"  dest="libs/libelf" />
     <linkfile src="libplatsupport" dest="libs/libplatsupport" />
@@ -67,7 +67,7 @@ remote="seL4"
 </project>
 
 <!-- the tutorial solution code -->
-<project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="3.0.x-compatible">
+<project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="3.2.x-compatible">
     <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
     <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
     <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
