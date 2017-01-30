@@ -30,22 +30,22 @@
     />
 
     <!-- the seL4 kernel -->
-    <project name="seL4.git" path="kernel" revision="refs/tags/3.2.0">
+    <project name="seL4.git" path="kernel" revision="refs/tags/4.0.0">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
     <!-- tools for building -->
-    <project name="seL4_tools.git" path="projects/seL4_tools" revision="3.2.x-compatible">
+    <project name="seL4_tools.git" path="projects/seL4_tools" revision="4.0.x-compatible">
         <linkfile src="common-tool" dest="tools/common"/>
         <linkfile src="elfloader-tool" dest="tools/elfloader"/>
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     </project>
 
     <!-- C library -->
-    <project name="musllibc.git" path="libs/libmuslc" revision="3.2.x-compatible"/>
+    <project name="musllibc.git" path="libs/libmuslc" revision="4.0.x-compatible"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="3.2.x-compatible">
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="4.0.x-compatible">
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
@@ -59,7 +59,7 @@
     </project>
 
     <!-- seL4-independent libraries -->
-    <project name="util_libs.git" path="projects/util_libs" revision="3.2.x-compatible">
+    <project name="util_libs.git" path="projects/util_libs" revision="4.0.x-compatible">
         <linkfile src="libcpio" dest="libs/libcpio"/>
         <linkfile src="libelf" dest="libs/libelf"/>
         <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
@@ -67,7 +67,7 @@
     </project>
 
     <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes" revision="refs/tags/camkes-2.2.0">
+    <project name="camkes-tool.git" path="tools/camkes" revision="refs/tags/camkes-2.3.0">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -76,7 +76,7 @@
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl" revision="3.2.x-compatible">
+    <project name="capdl.git" path="projects/capdl" revision="4.0.x-compatible">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -86,10 +86,10 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="seL4-projects" name="global-components.git" path="projects/global-components" revision="camkes-2.2.x-compatible"/>
+    <project remote="seL4-projects" name="global-components.git" path="projects/global-components" revision="camkes-2.3.x-compatible"/>
 
     <!-- the tutorial code -->
-    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="3.2.x-compatible">
+    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="4.0.x-compatible">
         <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
         <linkfile src="build-config/configs-camkes" dest="configs"/>
         <linkfile src="solutions/hello-camkes-0" dest="apps/hello-camkes-0"/>
