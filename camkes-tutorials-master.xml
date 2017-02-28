@@ -96,6 +96,10 @@
         <linkfile src="apps/hello-camkes-1" dest="apps/hello-camkes-1"/>
         <linkfile src="apps/hello-camkes-2" dest="apps/hello-camkes-2"/>
         <linkfile src="apps/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
+        <linkfile src="run.py" dest="run.py"/>
+        <linkfile src="run-ia32.py" dest="run-ia32.py"/>
+        <linkfile src="run-arm.py" dest="run-arm.py"/>
+        <linkfile src="run-sabre.py" dest="run-sabre.py"/>
     </project>
 
     <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->

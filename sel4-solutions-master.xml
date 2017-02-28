@@ -81,6 +81,10 @@
         <linkfile src="solutions/hello-timer-client" dest="apps/hello-timer-client"/>
         <linkfile src="solutions/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
         <linkfile src="solutions/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
+        <linkfile src="run.py" dest="run.py"/>
+        <linkfile src="run-ia32.py" dest="run-ia32.py"/>
+        <linkfile src="run-arm.py" dest="run-arm.py"/>
+        <linkfile src="run-sabre.py" dest="run-sabre.py"/>
     </project>
 
     <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
