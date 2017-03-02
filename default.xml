@@ -73,7 +73,7 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
 
     <!-- the tutorial code -->
     <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="master">
