@@ -90,16 +90,14 @@
 
     <!-- the tutorial code -->
     <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current">
+        <linkfile src="build-config/Makefile-camkes" dest="Kconfig"/>
+        <linkfile src="build-config/Kbuild-camkes" dest="Kbuild"/>
         <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
         <linkfile src="build-config/configs-camkes" dest="configs"/>
         <linkfile src="solutions/hello-camkes-0" dest="apps/hello-camkes-0"/>
         <linkfile src="solutions/hello-camkes-1" dest="apps/hello-camkes-1"/>
         <linkfile src="solutions/hello-camkes-2" dest="apps/hello-camkes-2"/>
         <linkfile src="solutions/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
-        <linkfile src="run.py" dest="run.py"/>
-        <linkfile src="run-ia32.py" dest="run-ia32.py"/>
-        <linkfile src="run-arm.py" dest="run-arm.py"/>
-        <linkfile src="run-sabre.py" dest="run-sabre.py"/>
     </project>
 
     <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
