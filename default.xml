@@ -46,6 +46,7 @@
         <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
         <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
         <linkfile src="libsel4sync" dest="libs/libsel4sync"/>
+        <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
     </project>
 
     <!-- seL4-independent libraries -->
