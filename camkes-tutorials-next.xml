@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     Copyright 2015, NICTA
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(NICTA_BSD)
+  -->
+
+<manifest>
+    <remote name="current"
+        fetch="."
+    />
+
+    <remote name="seL4"
+        fetch="../seL4"
+    />
+
+    <remote name="seL4-projects"
+        fetch="."
+    />
+
+
+    <!-- default revision for each project, and name of the remote -->
+    <default revision="master"
+        remote="seL4"
+    />
+
+    <!-- the seL4 kernel -->
+    <project name="seL4.git" path="kernel" revision="master">
+        <linkfile src="libsel4" dest="libs/libsel4"/>
+    </project>
+
+    <!-- tools for building -->
+    <project name="seL4_tools.git" path="projects/seL4_tools" revision="master">
+        <linkfile src="common-tool" dest="tools/common"/>
+        <linkfile src="elfloader-tool" dest="tools/elfloader"/>
+        <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+    </project>
+
+    <!-- C library -->
+    <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
+
+    <!-- seL4-specific libraries -->
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="master">
+        <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
+        <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
+        <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
+        <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
+        <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
+        <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
+        <linkfile src="libsel4sync" dest="libs/libsel4sync"/>
+        <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
+        <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
+        <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
+    </project>
+
+    <!-- seL4-independent libraries -->
+    <project name="util_libs.git" path="projects/util_libs" revision="master">
+        <linkfile src="libcpio" dest="libs/libcpio"/>
+        <linkfile src="libelf" dest="libs/libelf"/>
+        <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
+        <linkfile src="libutils" dest="libs/libutils"/>
+    </project>
+
+    <!-- all the CAmkES tools and libraries -->
+    <project name="camkes-tool.git" path="tools/camkes" revision="next">
+        <linkfile src="toplevel.mk" dest="Makefile"/>
+        <linkfile src="Kbuild" dest="Kbuild"/>
+        <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
+        <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
+        <linkfile src="docs/index.md" dest="README.md"/>
+    </project>
+
+    <!-- all the capDL tools and libraries -->
+    <project name="capdl.git" path="projects/capdl" revision="master">
+        <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
+        <linkfile src="capDL-tool" dest="tools/capDL"/>
+        <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
+    </project>
+
+    <!-- tool for removing excess functions from C code -->
+    <project name="pruner.git" path="tools/pruner"/>
+
+    <!-- global CAmkES components and interfaces -->
+    <project remote="seL4-projects" name="global-components.git" path="projects/global-components" revision="next"/>
+
+    <!-- the tutorial code -->
+    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="next">
+        <linkfile src="build-config/Makefile-camkes" dest="Kconfig"/>
+        <linkfile src="build-config/Kbuild-camkes" dest="Kbuild"/>
+        <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
+        <linkfile src="build-config/configs-camkes" dest="configs"/>
+        <linkfile src="exercises/hello-camkes-0" dest="apps/hello-camkes-0"/>
+        <linkfile src="exercises/hello-camkes-1" dest="apps/hello-camkes-1"/>
+        <linkfile src="exercises/hello-camkes-2" dest="apps/hello-camkes-2"/>
+        <linkfile src="exercises/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
+    </project>
+
+    <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
+    <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
+
+</manifest>
+
