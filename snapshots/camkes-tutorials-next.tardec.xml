@@ -13,7 +13,7 @@
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="f8d527694b91799eb70b12979b05b3eecbef4660" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="33d5618b1d769b4a378edda62f351b2b2258f404" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
