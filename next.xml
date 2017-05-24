@@ -79,7 +79,7 @@
     <!-- the tutorial code -->
     <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="next">
         <linkfile src="manage.py" dest="manage.py"/>
-        <linkfile src="README-dev.md" dest="README-dev.md"/>
+        <linkfile src="README.md" dest="README.md"/>
     </project>
 
 </manifest>
