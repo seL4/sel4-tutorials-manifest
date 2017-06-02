@@ -18,7 +18,7 @@
 <default revision="master" remote="seL4"/>
 
 <!-- the seL4 kernel -->
-<project name="seL4.git" path="kernel" revision="5.0.x-compatible">
+<project name="seL4.git" path="kernel" revision="refs/tags/5.0.0">
     <linkfile src="libsel4" dest="libs/libsel4"/>
 </project>
 
