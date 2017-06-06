@@ -75,6 +75,6 @@
 </project>
 
 <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
-<project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current" revision="5.1.x-compatible"/>
+<project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current" revision="5.2.x-compatible"/>
 
 </manifest>
