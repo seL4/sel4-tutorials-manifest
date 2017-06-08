@@ -1,0 +1,90 @@
+<!--
+  Copyright 2017, Data61
+  Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+  ABN 41 687 119 230.
+
+  This software may be distributed and modified according to the terms of
+  the BSD 2-Clause license. Note that NO WARRANTY is provided.
+  See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+  -->
+
+<manifest>
+
+<remote name="current"
+fetch="."
+/>
+
+<remote name="seL4-projects"
+fetch="."
+/>
+
+<remote name="seL4"
+fetch="../seL4"
+/>
+
+<default revision="master"
+remote="seL4"
+/>
+
+<!-- the seL4 kernel -->
+<project name="seL4.git" path="kernel" revision="new-rt">
+    <linkfile src="libsel4" dest="libs/libsel4"/>
+</project>
+
+<!-- tools for building -->
+<project name="seL4_tools.git" path="projects/tools" revision="5.2.x-compatible">
+    <linkfile src="common-tool" dest="tools/common"/>
+    <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+    <linkfile src="elfloader-tool" dest="tools/elfloader" />
+</project>
+
+<!-- C library -->
+<project name="musllibc.git" path="libs/libmuslc" revision="5.2.x-compatible"/>
+
+<!-- seL4-specific libraries -->
+<project name="seL4_libs.git" path="projects/seL4_libs" revision="new-rt">
+    <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
+    <linkfile src="libsel4debug" dest="libs/libsel4debug" />
+    <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
+    <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport" />
+    <linkfile src="libsel4simple" dest="libs/libsel4simple" />
+    <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default" />
+    <linkfile src="libsel4simple-stable" dest="libs/libsel4simple-stable" />
+    <linkfile src="libsel4test" dest="libs/libsel4test" />
+    <linkfile src="libsel4utils" dest="libs/libsel4utils" />
+    <linkfile src="libsel4vka" dest="libs/libsel4vka" />
+    <linkfile src="libsel4vspace" dest="libs/libsel4vspace" />
+</project>
+
+<!-- seL4-independent libraries -->
+<project name="util_libs.git" path="projects/util_libs" revision="5.2.x-compatible">
+    <linkfile src="libcpio" dest="libs/libcpio" />
+    <linkfile src="libelf"  dest="libs/libelf" />
+    <linkfile src="libplatsupport" dest="libs/libplatsupport" />
+    <linkfile src="libutils" dest="libs/libutils" />
+</project>
+
+<!-- the tutorial solution code -->
+<project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="mcs">
+    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
+    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
+    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
+    <linkfile src="build-config/configs-sel4" dest="configs"/>
+    <linkfile src="solutions/hello-1" dest="apps/hello-1"/>
+    <linkfile src="solutions/hello-2" dest="apps/hello-2"/>
+    <linkfile src="solutions/hello-3" dest="apps/hello-3"/>
+    <linkfile src="solutions/hello-4" dest="apps/hello-4"/>
+    <linkfile src="solutions/hello-4-app" dest="apps/hello-4-app"/>
+    <linkfile src="solutions/hello-timer" dest="apps/hello-timer"/>
+    <linkfile src="solutions/hello-timer-client" dest="apps/hello-timer-client"/>
+    <linkfile src="solutions/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
+    <linkfile src="solutions/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
+</project>
+
+<!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
+<project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
+
+</manifest>
+
