@@ -95,6 +95,7 @@
         <linkfile src="apps/hello-camkes-1" dest="apps/hello-camkes-1"/>
         <linkfile src="apps/hello-camkes-2" dest="apps/hello-camkes-2"/>
         <linkfile src="apps/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
+        <linkfile src="apps/hello-camkes-mcs" dest="apps/hello-camkes-mcs"/>
     </project>
 
     <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->

@@ -81,6 +81,7 @@ remote="seL4"
     <linkfile src="solutions/hello-timer-client" dest="apps/hello-timer-client"/>
     <linkfile src="solutions/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
     <linkfile src="solutions/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
+    <linkfile src="solutions/hello-mcs" dest="apps/hello-mcs"/>
 </project>
 
 <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
