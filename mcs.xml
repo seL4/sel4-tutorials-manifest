@@ -18,7 +18,7 @@
     <default revision="master" remote="seL4"/>
 
     <!-- the seL4 kernel -->
-    <project name="seL4.git" path="kernel" revision="master">
+    <project name="seL4.git" path="kernel" revision="new-rt">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
@@ -33,7 +33,7 @@
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="master">
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="new-rt">
         <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
@@ -74,10 +74,10 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components" revision="next"/>
 
     <!-- the tutorial code -->
-    <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="next">
+    <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="mcs">
         <linkfile src="manage.py" dest="manage.py"/>
         <linkfile src="README.md" dest="README.md"/>
     </project>
