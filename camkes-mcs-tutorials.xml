@@ -44,7 +44,7 @@
     <project name="musllibc.git" path="libs/libmuslc" revision="5.2.x-mcs-compatible"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="new-rt">
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="5.2.x-mcs-compatible">
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
