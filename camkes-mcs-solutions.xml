@@ -76,7 +76,7 @@
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl" revision="5.2.x-mcs-compatible">
+    <project name="capdl.git" path="projects/capdl" revision="master">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
