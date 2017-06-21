@@ -99,8 +99,6 @@
         <linkfile src="solutions/hello-camkes-mcs" dest="apps/hello-camkes-mcs"/>
     </project>
 
-    <!-- include the tutorial manifests as well (not necessary, but makes them easily accessible) -->
-    <project name="sel4-tutorials-manifest.git" path="projects/sel4-tutorials-manifest" remote="current"/>
 
 </manifest>
 
