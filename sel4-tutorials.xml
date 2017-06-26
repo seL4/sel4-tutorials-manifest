@@ -73,15 +73,15 @@ remote="seL4"
     <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
     <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
     <linkfile src="build-config/configs-sel4" dest="configs"/>
-    <linkfile src="apps/hello-1" dest="apps/hello-1"/>
-    <linkfile src="apps/hello-2" dest="apps/hello-2"/>
-    <linkfile src="apps/hello-3" dest="apps/hello-3"/>
-    <linkfile src="apps/hello-4" dest="apps/hello-4"/>
-    <linkfile src="apps/hello-4-app" dest="apps/hello-4-app"/>
-    <linkfile src="apps/hello-timer" dest="apps/hello-timer"/>
-    <linkfile src="apps/hello-timer-client" dest="apps/hello-timer-client"/>
-    <linkfile src="apps/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
-    <linkfile src="apps/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
+    <linkfile src="exercises/hello-1" dest="apps/hello-1"/>
+    <linkfile src="exercises/hello-2" dest="apps/hello-2"/>
+    <linkfile src="exercises/hello-3" dest="apps/hello-3"/>
+    <linkfile src="exercises/hello-4" dest="apps/hello-4"/>
+    <linkfile src="exercises/hello-4-app" dest="apps/hello-4-app"/>
+    <linkfile src="exercises/hello-timer" dest="apps/hello-timer"/>
+    <linkfile src="exercises/hello-timer-client" dest="apps/hello-timer-client"/>
+    <linkfile src="exercises/hello-2-nolibs" dest="apps/hello-2-nolibs"/>
+    <linkfile src="exercises/hello-3-nolibs" dest="apps/hello-3-nolibs"/>
 </project>
 
 
