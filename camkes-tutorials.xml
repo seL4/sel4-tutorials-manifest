@@ -91,10 +91,10 @@
         <linkfile src="build-config/Makefile-camkes" dest="Makefile"/>
         <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
         <linkfile src="build-config/configs-camkes" dest="configs"/>
-        <linkfile src="apps/hello-camkes-0" dest="apps/hello-camkes-0"/>
-        <linkfile src="apps/hello-camkes-1" dest="apps/hello-camkes-1"/>
-        <linkfile src="apps/hello-camkes-2" dest="apps/hello-camkes-2"/>
-        <linkfile src="apps/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
+        <linkfile src="exercises/hello-camkes-0" dest="apps/hello-camkes-0"/>
+        <linkfile src="exercises/hello-camkes-1" dest="apps/hello-camkes-1"/>
+        <linkfile src="exercises/hello-camkes-2" dest="apps/hello-camkes-2"/>
+        <linkfile src="exercises/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
     </project>
 
 
