@@ -32,7 +32,7 @@
 </project>
 
 <!-- C library -->
-<project name="musllibc.git" path="libs/libmuslc"/>
+<project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
 <!-- seL4-specific libraries -->
 <project name="seL4_libs.git" path="projects/seL4_libs">
