@@ -58,7 +58,7 @@
     </project>
 
     <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes" revision="next">
+    <project name="camkes-tool.git" path="tools/camkes" revision="master">
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
         <linkfile src="docs/index.md" dest="README-camkes.md"/>
@@ -74,7 +74,7 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="sel4proj" name="global-components.git" path="projects/global-components" revision="next"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components" revision="master"/>
 
     <!-- the tutorial code -->
     <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="master">
