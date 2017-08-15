@@ -23,7 +23,6 @@
         fetch="."
     />
 
-
     <!-- default revision for each project, and name of the remote -->
     <default revision="master"
         remote="seL4"
@@ -45,7 +44,7 @@
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs">
+    <project name="seL4_libs.git" path="projects/seL4_libs" >
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
@@ -67,7 +66,7 @@
     </project>
 
     <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes">
+    <project name="camkes-tool.git" path="tools/camkes" >
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
@@ -75,7 +74,7 @@
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl">
+    <project name="capdl.git" path="projects/capdl" >
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -85,17 +84,17 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="seL4-projects" name="global-components.git" path="projects/global-components" />
+    <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
 
     <!-- the tutorial code -->
     <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current">
         <linkfile src="build-config/Makefile-camkes" dest="Makefile"/>
         <linkfile src="build-config/Kconfig-camkes" dest="Kconfig"/>
         <linkfile src="build-config/configs-camkes" dest="configs"/>
-        <linkfile src="solutions/hello-camkes-0" dest="apps/hello-camkes-0"/>
-        <linkfile src="solutions/hello-camkes-1" dest="apps/hello-camkes-1"/>
-        <linkfile src="solutions/hello-camkes-2" dest="apps/hello-camkes-2"/>
-        <linkfile src="solutions/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
+        <linkfile src="exercises/hello-camkes-0" dest="apps/hello-camkes-0"/>
+        <linkfile src="exercises/hello-camkes-1" dest="apps/hello-camkes-1"/>
+        <linkfile src="exercises/hello-camkes-2" dest="apps/hello-camkes-2"/>
+        <linkfile src="exercises/hello-camkes-timer" dest="apps/hello-camkes-timer"/>
     </project>
 
 
