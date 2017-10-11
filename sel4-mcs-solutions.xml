@@ -16,7 +16,7 @@ fetch="."
 />
 
 <remote name="seL4-projects"
-fetch="."
+    fetch="../sel4proj"
 />
 
 <remote name="seL4"

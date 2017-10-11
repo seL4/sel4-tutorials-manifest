@@ -13,8 +13,7 @@
 
 <remote name="current" fetch="."/>
 
-
-<remote name="seL4-projects" fetch="."/>
+<remote name="seL4-projects" fetch="../sel4proj"/>
 
 <remote name="seL4" fetch="../seL4"/>
 
