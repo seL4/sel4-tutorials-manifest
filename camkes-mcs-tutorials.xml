@@ -65,7 +65,7 @@
     </project>
 
     <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes" revision="master">
+    <project name="camkes-tool.git" path="tools/camkes" revision="refs/tags/camkes-3.1.0">
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
         <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
@@ -73,7 +73,7 @@
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl" revision="master">
+    <project name="capdl.git" path="projects/capdl" revision="5.2.x-compatible">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -99,4 +99,3 @@
 
 
 </manifest>
-
