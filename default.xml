@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
 <manifest>
   <remote fetch="." name="current"/>
   <remote fetch="../seL4" name="seL4"/>
-  <remote fetch="../sel4proj" name="seL4-projects"/>
+  <remote fetch="../sel4proj" name="SEL4PROJ"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -17,13 +28,13 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="e10c365fc567c275e7e5236a9f1c04e4d0adbcbb" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="SEL4PROJ" revision="e10c365fc567c275e7e5236a9f1c04e4d0adbcbb" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="abe99d3ace63800009301db9a31e9477ea8143c4" upstream="master">
+  <project name="seL4.git" path="kernel" revision="539edb5d991f99164ddf8e36075807fe6c23955c" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1ba333a07cf39633a70ce6e6595cf0ad37bcb464" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="8338a1bf71a7a87c2a2cdfdffa7bf4c3d6440c03" upstream="master">
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -40,7 +51,7 @@
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="39b7c63d7543f8204832c06fae43c17817b40337" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="b89a40e876188e0c27658dbc21c1df6dfcac6112" upstream="master">
     <linkfile dest="Makefile" src="build-config/Makefile-camkes"/>
     <linkfile dest="Kconfig" src="build-config/Kconfig-camkes"/>
     <linkfile dest="configs" src="build-config/configs-camkes"/>
