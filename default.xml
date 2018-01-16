@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="." name="current"/>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="../sel4proj" name="seL4-projects"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
+  <project name="seL4.git" path="kernel" revision="abe99d3ace63800009301db9a31e9477ea8143c4" upstream="master">
+    <linkfile dest="libs/libsel4" src="libsel4"/>
+  </project>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1ba333a07cf39633a70ce6e6595cf0ad37bcb464" upstream="master">
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
+    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
+    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
+    <linkfile dest="libs/libsel4test" src="libsel4test"/>
+    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
+    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+  </project>
+  <project name="seL4_tools.git" path="projects/tools" revision="afe398cd09bc35c5a4d573006ed19284a164ad80" upstream="master">
+    <linkfile dest="tools/common" src="common-tool"/>
+    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+  </project>
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="39b7c63d7543f8204832c06fae43c17817b40337" upstream="master">
+    <linkfile dest="Makefile" src="build-config/Makefile-sel4"/>
+    <linkfile dest="Kbuild" src="build-config/Kbuild-sel4"/>
+    <linkfile dest="Kconfig" src="build-config/Kconfig-sel4"/>
+    <linkfile dest="configs" src="build-config/configs-sel4"/>
+    <linkfile dest="apps/hello-1" src="exercises/hello-1"/>
+    <linkfile dest="apps/hello-2" src="exercises/hello-2"/>
+    <linkfile dest="apps/hello-3" src="exercises/hello-3"/>
+    <linkfile dest="apps/hello-4" src="exercises/hello-4"/>
+    <linkfile dest="apps/hello-4-app" src="exercises/hello-4-app"/>
+    <linkfile dest="apps/hello-timer" src="exercises/hello-timer"/>
+    <linkfile dest="apps/hello-timer-client" src="exercises/hello-timer-client"/>
+    <linkfile dest="apps/hello-2-nolibs" src="exercises/hello-2-nolibs"/>
+    <linkfile dest="apps/hello-3-nolibs" src="exercises/hello-3-nolibs"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="48a144dd901459fdf263836569e017cf4da8d700" upstream="master">
+    <linkfile dest="libs/libcpio" src="libcpio"/>
+    <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
+    <linkfile dest="libs/libutils" src="libutils"/>
+  </project>
+</manifest>
