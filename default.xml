@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+<manifest>
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="." name="sel4proj"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes" revision="e1ad6b7e12e62583e8072c56f2634a534f087848" upstream="master">
+    <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
+    <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
+    <linkfile dest="README-camkes.md" src="docs/index.md"/>
+  </project>
+  <project name="capdl.git" path="projects/capdl" revision="31520d27dfa9ab84cd08cd3951abb63e6fcf6eb7" upstream="master">
+    <linkfile dest="tools/capDL" src="capDL-tool"/>
+    <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
+  </project>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="e10c365fc567c275e7e5236a9f1c04e4d0adbcbb" upstream="master"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
+  <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="e2c7814017c42c84654696f7d243c56bcc0ec634" upstream="master">
+    <linkfile dest="libs/libsel4" src="libsel4"/>
+  </project>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="724576ac6c5b690735b67544e1cc4e5acf2adb8a" upstream="master">
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
+    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
+    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
+    <linkfile dest="libs/libsel4test" src="libsel4test"/>
+    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
+    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
+    <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
+  </project>
+  <project name="seL4_tools.git" path="projects/tools" revision="83eb318119fc9748bd06a3630ec742be782eaaa9" upstream="master">
+    <linkfile dest="tools/common" src="common-tool"/>
+    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+  </project>
+  <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="f1af4f091c56098ed05213372a6698c533d9724e" upstream="master">
+    <linkfile dest="manage.py" src="manage.py"/>
+    <linkfile dest="README.md" src="README.md"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="971441acaf1477ee524c456fd9e3eb4b34e60a9f" upstream="master">
+    <linkfile dest="libs/libcpio" src="libcpio"/>
+    <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
+    <linkfile dest="libs/libutils" src="libutils"/>
+  </project>
+</manifest>
