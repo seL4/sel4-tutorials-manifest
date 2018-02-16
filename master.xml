@@ -30,6 +30,8 @@
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader"/>
     <linkfile src="cmake-tool" dest="tools/cmake-tool"/>
+    <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt" />
+    <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh" />
 </project>
 
 <!-- C library -->
