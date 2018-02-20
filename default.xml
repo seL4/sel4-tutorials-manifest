@@ -26,7 +26,9 @@
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="e10c365fc567c275e7e5236a9f1c04e4d0adbcbb" upstream="master"/>
-  <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
+    <linkfile dest="libs/libmuslc" src="./"/>
+  </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="e369263e40e393e7eb3a12e7feeada62fac865f8" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
@@ -50,6 +52,9 @@
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="f1af4f091c56098ed05213372a6698c533d9724e" upstream="master">
     <linkfile dest="manage.py" src="manage.py"/>
