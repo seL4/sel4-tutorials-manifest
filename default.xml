@@ -30,7 +30,7 @@
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ccac858da861bb03661a39b50541712e48684872" upstream="master">
+  <project name="seL4.git" path="kernel" revision="d4d1613f6c0a47054fec46ceb6840473ddb57ddb" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="9df65d82d3c90f7d45c121b4772ff1b228f8048f" upstream="master">
