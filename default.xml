@@ -16,24 +16,24 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="1155e375d089a47c5aa9b7ce12763f15966a226e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="50bae6fd83ee0074a6ad327f67e14caf331dd2ac" upstream="master">
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="31520d27dfa9ab84cd08cd3951abb63e6fcf6eb7" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="f4cc01067ff1ef54fbeae3fe97ec26fc6a180795" upstream="master">
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="e10c365fc567c275e7e5236a9f1c04e4d0adbcbb" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="5a770e1b58a2590c548d76adea8445f13d4adf74" upstream="master"/>
   <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="d4d1613f6c0a47054fec46ceb6840473ddb57ddb" upstream="master">
+  <project name="seL4.git" path="kernel" revision="ce2efb33c806105795badef471a074af32bd2226" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="9df65d82d3c90f7d45c121b4772ff1b228f8048f" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c1d58e5899ea44feae567f71b99a2f5ff608545f" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
