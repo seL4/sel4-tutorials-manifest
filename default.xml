@@ -16,12 +16,12 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="50bae6fd83ee0074a6ad327f67e14caf331dd2ac" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="1d15bb325db41c2f235cf671a5bf305c195b8d8a" upstream="master">
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="f4cc01067ff1ef54fbeae3fe97ec26fc6a180795" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="5c1d9ba86a1a68419d74ff23ba63305ae018fd96" upstream="master">
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
@@ -30,10 +30,10 @@
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ce2efb33c806105795badef471a074af32bd2226" upstream="master">
+  <project name="seL4.git" path="kernel" revision="7ce75bb2ae10e929fe50f9e0b263505d06f81566" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c1d58e5899ea44feae567f71b99a2f5ff608545f" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="b9927ab00025b587deca0e52ce103c01e5ed81f9" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -48,7 +48,7 @@
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="03a26f9031af7243e41ba82a93e5e451e239be1a" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="af48b52d5a03a3a7a62c64fe89eb5f30d5234144" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -56,7 +56,7 @@
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="c89a02c9dd0ce689e4c77523a7b10f6c49096725" upstream="master">
+  <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="0ed1b179d467cb0120c4805e4b4fbb61e2f41246" upstream="master">
     <linkfile dest="manage.py" src="manage.py"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
