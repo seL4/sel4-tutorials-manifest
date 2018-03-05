@@ -16,12 +16,12 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="a4030263c875e6420dca0d59966af2fde961f21e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="ec8f709dd5887c677f07c5ff1c16e91c20ba0a7f" upstream="master">
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5c1d9ba86a1a68419d74ff23ba63305ae018fd96" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="9608a16b87fe9310c4dd58c1e8d7d8d40d6857e5" upstream="master">
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
