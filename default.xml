@@ -25,12 +25,12 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="28b760382419e5085cf0cc73a71a6e08ba85df46" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
   <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="30738188dbd41016713d03cd5c3f20f5098c36f4" upstream="master">
+  <project name="seL4.git" path="kernel" revision="95a300fe5094687157652256f2692086c63b9ac1" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
@@ -60,7 +60,7 @@
     <linkfile dest="manage.py" src="manage.py"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a8a25716c14a72d7af0d775c8a25ed3088db09e0" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="bb731a43c1f624e6fee15b76a3896ade76002a14" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
