@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="ecaf6943adc8f00cb11a43f4038bc065265ca86a" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="2bf14a0aa0206ca532ee84c5d2b3e3580c2aa302" upstream="master">
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
@@ -30,7 +30,7 @@
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="315562d35c56fdab9671f92d67abb1d7e711c2e4" upstream="master">
+  <project name="seL4.git" path="kernel" revision="b942a5044119ed75ad8f607618ca069a0d3f0aa9" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
@@ -48,7 +48,7 @@
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="413656df3d75a6ffd493ae4693b386fb6d67a6bc" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="a31bcc4b92a3daaa796da70bf5c42289851214a1" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
