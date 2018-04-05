@@ -30,7 +30,7 @@
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="6ae2ad9e21a50c7b240edf7f61cd66b45699d5ca" upstream="master">
+  <project name="seL4.git" path="kernel" revision="b50c6a86dff1bf9a2f9c6aa01b52af0f5a7cc7a7" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
@@ -60,7 +60,7 @@
     <linkfile dest="manage.py" src="manage.py"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="99062935f9d2a97595be5af475ab31712d02d371" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="54a810727b0a8fa72a2edd544aa072453df88ef3" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
