@@ -13,15 +13,17 @@
 <manifest>
   <remote fetch="." name="current"/>
   <remote fetch="../seL4" name="seL4"/>
-  <remote fetch="../sel4proj" name="SEL4PROJ"/>
+  <remote fetch="../sel4proj" name="seL4-projects"/>
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="libs/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4"/>
-  <project name="seL4.git" path="kernel" revision="a0ec03582896c926a1f93ce6740f5f1300ac74f9" upstream="master">
+  <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
+    <linkfile dest="libs/libmuslc" src="./"/>
+  </project>
+  <project name="seL4.git" path="kernel" revision="f58d22af8b6ce8bfccaa4bac393a31cad670e7c1" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="724576ac6c5b690735b67544e1cc4e5acf2adb8a" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -34,12 +36,15 @@
     <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="26b594c6c288108d84484ebde500ab898de71021" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="1f57b8aa4c57619d21b3c5d35c6d1378d799cb5a" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="b89a40e876188e0c27658dbc21c1df6dfcac6112" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="current" revision="fae0b9066a8959731dc65886cd9d2158d36e2e21" upstream="master">
     <linkfile dest="Makefile" src="build-config/Makefile-sel4"/>
     <linkfile dest="Kbuild" src="build-config/Kbuild-sel4"/>
     <linkfile dest="Kconfig" src="build-config/Kconfig-sel4"/>
@@ -54,7 +59,7 @@
     <linkfile dest="apps/hello-2-nolibs" src="solutions/hello-2-nolibs"/>
     <linkfile dest="apps/hello-3-nolibs" src="solutions/hello-3-nolibs"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="48a144dd901459fdf263836569e017cf4da8d700" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="54a810727b0a8fa72a2edd544aa072453df88ef3" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
