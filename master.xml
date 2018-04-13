@@ -11,80 +11,47 @@
   -->
 <manifest>
 
-    <remote name="sel4proj" fetch="."/>
+    <remote name="sel4proj" fetch="../sel4proj"/>
 
     <remote name="seL4" fetch="../seL4"/>
 
     <default revision="master" remote="seL4"/>
 
     <!-- the seL4 kernel -->
-    <project name="seL4.git" path="kernel" revision="master">
-        <linkfile src="libsel4" dest="libs/libsel4"/>
-    </project>
+    <project name="seL4.git" path="kernel" revision="master"/>
 
     <!-- tools for building -->
-    <project name="seL4_tools.git" path="projects/tools" revision="master">
-        <linkfile src="common-tool" dest="tools/common"/>
-        <linkfile src="kbuild-tool" dest="tools/kbuild"/>
-        <linkfile src="elfloader-tool" dest="tools/elfloader"/>
-        <linkfile src="cmake-tool" dest="tools/cmake-tool"/>
+    <project name="seL4_tools.git" path="tools/seL4" revision="master">
         <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt" />
-        <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh" />
     </project>
 
     <!-- C library -->
-    <project name="musllibc.git" path="projects/libmuslc" revision="sel4">
-        <linkfile src="./" dest="libs/libmuslc"/>
-    </project>
+    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
     <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="master">
-        <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
-        <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
-        <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
-        <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
-        <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
-        <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
-        <linkfile src="libsel4simple-stable" dest="libs/libsel4simple-stable"/>
-        <linkfile src="libsel4test" dest="libs/libsel4test"/>
-        <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
-        <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
-        <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
-        <linkfile src="libsel4sync" dest="libs/libsel4sync"/>
-        <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
-    </project>
+    <project name="seL4_libs.git" path="projects/seL4_libs" revision="master"/>
 
     <!-- seL4-independent libraries -->
-    <project name="util_libs.git" path="projects/util_libs" revision="master">
-        <linkfile src="libcpio" dest="libs/libcpio"/>
-        <linkfile src="libelf" dest="libs/libelf"/>
-        <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
-        <linkfile src="libutils" dest="libs/libutils"/>
-    </project>
+    <project name="util_libs.git" path="projects/util_libs" revision="master"/>
 
     <!-- all the CAmkES tools and libraries -->
     <project name="camkes-tool.git" path="tools/camkes" revision="master">
-        <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
-        <linkfile src="libsel4muslccamkes" dest="libs/libsel4muslccamkes"/>
         <linkfile src="docs/index.md" dest="README-camkes.md"/>
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/capdl" revision="master">
-        <linkfile src="capDL-tool" dest="tools/capDL"/>
-        <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
-    </project>
+    <project name="capdl.git" path="projects/camkes/capdl" revision="master"/>
 
     <!-- tool for removing excess functions from C code -->
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="sel4proj" name="global-components.git" path="projects/global-components" revision="master"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/camkes/global-components" revision="master"/>
 
     <!-- the tutorial code -->
-    <project name="sel4-tutorials-source.git" path="projects/sel4-tutorials-source" remote="sel4proj" revision="master">
-        <linkfile src="manage.py" dest="manage.py"/>
+    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj">
         <linkfile src="README.md" dest="README.md"/>
+        <linkfile src="init.py" dest="init"/>
     </project>
 
 </manifest>
