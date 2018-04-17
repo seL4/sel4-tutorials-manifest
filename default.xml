@@ -20,7 +20,7 @@
   <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="fd2831bb3c9324fd5651dcdb8fc5563bce1ed37a" upstream="master">
+  <project name="seL4.git" path="kernel" revision="c5184b802b1d523b7c3376729d8cd9b4828430d9" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
@@ -36,7 +36,7 @@
     <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="1f57b8aa4c57619d21b3c5d35c6d1378d799cb5a" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="a242cb7c4fdbdce6d9fd01f5b375c7137ed55f05" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -59,7 +59,7 @@
     <linkfile dest="apps/hello-2-nolibs" src="exercises/hello-2-nolibs"/>
     <linkfile dest="apps/hello-3-nolibs" src="exercises/hello-3-nolibs"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="54a810727b0a8fa72a2edd544aa072453df88ef3" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="b89a19a3a566f2e2289b1114c55b12fff12865be" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
