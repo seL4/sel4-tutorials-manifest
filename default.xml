@@ -17,13 +17,13 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/libmuslc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
+  <project name="musllibc.git" path="projects/libmuslc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="511be7d91dba84fea3d227d01a0475503b415cbe" upstream="master">
+  <project name="seL4.git" path="kernel" revision="0dd40b6c43a290173ea7782b97afbbbddfa23b36" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="494cd46c8497f50036b5e517720e1604affe6b10" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -36,7 +36,7 @@
     <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="a242cb7c4fdbdce6d9fd01f5b375c7137ed55f05" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="87642544dbb767806d9c1f0fb673eb5ac86c242b" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -59,7 +59,7 @@
     <linkfile dest="apps/hello-2-nolibs" src="exercises/hello-2-nolibs"/>
     <linkfile dest="apps/hello-3-nolibs" src="exercises/hello-3-nolibs"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="b89a19a3a566f2e2289b1114c55b12fff12865be" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="f667cfa2f8aae95db65a991ba7dfedf75cb6e46e" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
