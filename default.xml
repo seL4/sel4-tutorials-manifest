@@ -20,7 +20,7 @@
   <project name="musllibc.git" path="projects/libmuslc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="./"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="0dd40b6c43a290173ea7782b97afbbbddfa23b36" upstream="master">
+  <project name="seL4.git" path="kernel" revision="8484c24659aaea6104996eb5cc0133bf2addfe8e" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="494cd46c8497f50036b5e517720e1604affe6b10" upstream="master">
