@@ -23,7 +23,7 @@
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="f3e57b1e179050c7c4188899056481eb916f37c1" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="64b7bd9f9c6b1338eb52b545f4b0bb45b639c850" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="2752d2b945741829c856511d9a6f1040a667c33f" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9fd7042edd1cd6f5574ebb5f49e15474f6ad1b71" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
