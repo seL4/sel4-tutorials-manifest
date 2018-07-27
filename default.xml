@@ -16,19 +16,19 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="94369c411660a97651c6532d706d0ab21997925e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="7b7b78ae451d68e4c020adfc39735c5db90fbef4" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/camkes/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master"/>
-  <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="0cd8f71432619068cc43898c6ad92134bc342ca9" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4"/>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="0bc45889886cd7bd65813b483f7f2f7eb9f1f975" upstream="master"/>
+  <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="e611951b655ac8e31ced9206bcc2e83a28e34c92" upstream="master"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="0a9f5c4c8afbadc04aedc91546b1f31b1f9ac90d" upstream="sel4"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="639b7fbd37cc9b1dce31e1b7aabe604cf3664b5c" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="f3c281df981bb08f3a59d3f61d44546df4df935d" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="0b9d383d0a993291a365971ac6b2a79eb89e1844" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="afe87d488a36823297547922259bbdbce1f2758e" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="88410e8fae706d3760e05e984e6c0583970add12" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
