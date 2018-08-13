@@ -48,6 +48,9 @@
     <!-- global CAmkES components and interfaces -->
     <project remote="sel4proj" name="global-components.git" path="projects/camkes/global-components" revision="master"/>
 
+    <!-- seL4-independent libraries -->
+    <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs" revision="master"/>
+
     <!-- the tutorial code -->
     <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj">
         <linkfile src="README.md" dest="README.md"/>
