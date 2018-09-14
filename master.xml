@@ -52,7 +52,7 @@
     <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs" revision="master"/>
 
     <!-- the tutorial code -->
-    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj">
+    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="newtutedev" remote="sel4proj">
         <linkfile src="README.md" dest="README.md"/>
         <linkfile src="init.py" dest="init"/>
     </project>
