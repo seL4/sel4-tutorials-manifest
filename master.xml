@@ -15,6 +15,8 @@
 
     <remote name="seL4" fetch="../seL4"/>
 
+    <remote fetch="https://github.com/ruslo" name="polly"/>
+
     <default revision="master" remote="seL4"/>
 
     <!-- the seL4 kernel -->
@@ -56,5 +58,9 @@
         <linkfile src="README.md" dest="README.md"/>
         <linkfile src="init.py" dest="init"/>
     </project>
+
+    <project name="camkes-vm.git" path="projects/camkes/vm"/>
+    <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj"/>
+    <project name="polly" remote="polly" path="tools/polly" />
 
 </manifest>
