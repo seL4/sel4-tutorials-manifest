@@ -21,7 +21,7 @@
   </project>
   <project name="capdl.git" path="projects/camkes/capdl" revision="b8423e6a021bad5ab535ac4092c60b8dc74744fe" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="f1f448f817971b08224778fefca749722f416dc8" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="5dae82e55ab9522a427e590b42c0c4807ad6ee18" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="ffbb278305d0ee322f6bea25739c5a4e08b7d807" upstream="master"/>
