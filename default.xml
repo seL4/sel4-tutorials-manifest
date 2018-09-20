@@ -9,52 +9,30 @@
 
      @TAG(DATA61_BSD)
   -->
+
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <remote name="sel4proj" fetch="../sel4proj"/>
-
-    <remote name="seL4" fetch="../seL4"/>
-
-    <default revision="master" remote="seL4"/>
-
-    <!-- the seL4 kernel -->
-    <project name="seL4.git" path="kernel" revision="master"/>
-
-    <!-- tools for building -->
-    <project name="seL4_tools.git" path="tools/seL4" revision="master">
-        <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt" />
-    </project>
-
-    <!-- C library -->
-    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
-
-    <!-- seL4-specific libraries -->
-    <project name="seL4_libs.git" path="projects/seL4_libs" revision="master"/>
-
-    <!-- seL4-independent libraries -->
-    <project name="util_libs.git" path="projects/util_libs" revision="master"/>
-
-    <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes" revision="master">
-        <linkfile src="docs/index.md" dest="README-camkes.md"/>
-    </project>
-
-    <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/camkes/capdl" revision="master"/>
-
-    <!-- tool for removing excess functions from C code -->
-    <project name="pruner.git" path="tools/pruner"/>
-
-    <!-- global CAmkES components and interfaces -->
-    <project remote="sel4proj" name="global-components.git" path="projects/camkes/global-components" revision="master"/>
-
-    <!-- seL4-independent libraries -->
-    <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs" revision="master"/>
-
-    <!-- the tutorial code -->
-    <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="newtutedev" remote="sel4proj">
-        <linkfile src="README.md" dest="README.md"/>
-        <linkfile src="init.py" dest="init"/>
-    </project>
-
+  <remote fetch="../seL4" name="seL4"/>
+  <remote fetch="../sel4proj" name="sel4proj"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="camkes-tool.git" path="tools/camkes" revision="0655e05e16d6f01f0275531a1b74f2d381975640" upstream="master">
+    <linkfile dest="README-camkes.md" src="docs/index.md"/>
+  </project>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="0206c98907383f4090d87402593a4f9a00bc3db8" upstream="newtutedev"/>
+  <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="5dae82e55ab9522a427e590b42c0c4807ad6ee18" upstream="sel4"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
+  <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="db3e18b7e45909198b5e4fa7aa56336c92af2207" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="6832405c4eb7bd650964fba5f3990c41886bd357" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="9476bb8ace1e294a457665bb7ed4aab79402ea10" upstream="master">
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+  </project>
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="973880e736abfe7c563b78394b9c4ec2286c704b" upstream="newtutedev">
+    <linkfile dest="README.md" src="README.md"/>
+    <linkfile dest="init" src="init.py"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="e4bf6f30ebc6448744c48e5a1c92a17de33c4371" upstream="master"/>
 </manifest>
