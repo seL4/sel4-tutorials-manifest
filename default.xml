@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="be23ad509c8ff8d0bdd43fc197b2214efcecf21d" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="dcb8e03ae308906a498b20c0ba2dc7582e7f860c" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="capdl.git" path="projects/camkes/capdl" revision="b8423e6a021bad5ab535ac4092c60b8dc74744fe" upstream="master"/>
@@ -25,7 +25,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="8cf34ab395124713d065a7c89ba01cb70d50692b" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="fd6e2939744b781558222612558c7b05cead80be" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="62f98faf52cce7226faf637490bff6effc8865d9" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="004911f73ed487962712329e0d3a316fc882def7" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
