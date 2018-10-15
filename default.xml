@@ -11,6 +11,7 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
+  <remote fetch="https://github.com/ruslo" name="polly"/>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
   
@@ -19,17 +20,20 @@
   <project name="camkes-tool.git" path="tools/camkes" revision="17f4b24cac00bbc43fea265a44575cbfa26c0789" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
+  <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
+  <project name="camkes-vm.git" path="projects/camkes/vm" revision="6c395cdfa768210f29b5b868657d79a2cf366d44" upstream="master"/>
   <project name="capdl.git" path="projects/camkes/capdl" revision="1dfcb85d57d4752329c48ed5676fa2ae90fd2d67" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="2a7ec8b69be6ca685e2f97cb0b12868aa606be2e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="0ced52f5be2b9af930c105b7369e0b3462deed9d" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="1283345bfd75dbe230bfe692e6e77ee5523cb7ca" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="62f98faf52cce7226faf637490bff6effc8865d9" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="01becc5dbd056bd86e94b268935e854498848e9c" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="2f3bd00b274c64d1445f028030481e6feb35f170" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="de189fd160689a9da4507b8e433c7e309da9cd65" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="7bd444312bc476203b3ba6fb3b047aa0993689dd" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
