@@ -17,7 +17,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="84cdd8aa58d86ce08a3922847491e0bc84651fc8" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="129c113fc7885e6add12b4397ac4cb3abac8a546" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
