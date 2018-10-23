@@ -21,7 +21,7 @@
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="673964443fe8d064e1708f876e1bb0dec4a25062" upstream="master"/>
-  <project name="camkes-vm.git" path="projects/camkes/vm" revision="6c395cdfa768210f29b5b868657d79a2cf366d44" upstream="master"/>
+  <project name="camkes-vm.git" path="projects/camkes/vm" revision="c99107b981fa54e624ff596251c73b5cf4f74d29" upstream="master"/>
   <project name="capdl.git" path="projects/camkes/capdl" revision="3e156a9a36bb4bef207518f76dc0d6fe375ebf14" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="7251daa13bdcc1502b494fb1f82a57bf71cd67a3" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
@@ -33,7 +33,7 @@
   <project name="seL4_tools.git" path="tools/seL4" revision="e5ad27015cfe30c68fbac35323e3c0547fe77395" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="9f38c94bfdbe8acc1d1f8c6f25e65ac6278f9ccd" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="3fd7ae94e5e7e24b0c4dfd6054dff15c1c1a3ead" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
