@@ -33,7 +33,7 @@
   <project name="seL4_tools.git" path="tools/seL4" revision="e8c8f9e1a3c37508fb1c395884a11d2a569e1ef6" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="eb73a11307dfaa2662bce5258799528613a43fb7" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="2726190f65c4e02e4c1c3f213747cc94f57bfc9c" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
