@@ -28,7 +28,7 @@
   <project name="polly" path="tools/polly" remote="polly" revision="187184c0ef05eee88d0b362fecbfcfb69b7f2b3c" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="d56175ec3ec1c104d8d17d437c312ef1567fca35" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="da3b02865006919214a0b6761e2455715609f4d5" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="3aefef1523debdddb11f66b1d663210f7b3811ce" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="f03f534f1fdaa5171f0dd233b179a84a86c7d2a4" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
@@ -37,5 +37,5 @@
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="8d891814587df9b2883acafc5ebb28b087776944" upstream="master"/>
 </manifest>
