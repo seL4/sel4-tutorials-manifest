@@ -22,7 +22,7 @@
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="89eced711e86e870864590686cc6c31f2ac0f5f6" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes/vm" revision="5e863b8a1fe04cc5f47d837af19f9689a00bd449" upstream="master"/>
-  <project name="capdl.git" path="projects/camkes/capdl" revision="52517426700034d10e48a3927c5288632ab0da27" upstream="master"/>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="f146343ccba5dc8f268a86565f2199a5b196102b" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="a5e7a2a2c39c6fa71b3c94daf050311aad959ba3" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="8927ffb3a6b163fa296dc52851a520b517ce05da" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="d28d406412f445a6e34d867e19720b4f729c8904" upstream="master"/>
