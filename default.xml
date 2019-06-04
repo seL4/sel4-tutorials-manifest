@@ -22,10 +22,10 @@
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="89eced711e86e870864590686cc6c31f2ac0f5f6" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes/vm" revision="845bdadef86626a0b0d90fb6efdea1aecc5637c9" upstream="master"/>
-  <project name="capdl.git" path="projects/camkes/capdl" revision="d96a530f46c9835d4ed4e69e74b605ef1da1694b" upstream="master"/>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="32a4dff5b8dc92ce104246b92e91911aabec8afb" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="1dc07a04a8f4facf90842351b0f476ae84da342e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="34c9e135cf89e77672f3ae8828feead1a8a53442" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="08d73739ca637c3642013d830219cc4df4fdac06" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="210c5c21575cc47f2fe88615dfafffd085eca96f" upstream="master"/>
