@@ -28,6 +28,9 @@
         <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt" />
     </project>
 
+    <!-- C runtime -->
+    <project remote="sel4proj" name="sel4runtime" path="projects/sel4runtime"/>
+
     <!-- C library -->
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
