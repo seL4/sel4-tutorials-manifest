@@ -25,15 +25,15 @@
   <project name="capdl.git" path="projects/camkes/capdl" revision="3adb46cbf58b3b1852e936af74982c34fa7d2a9f" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="1dc07a04a8f4facf90842351b0f476ae84da342e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="bad4e70c1bbdedc8b92e59c682b0626276bbec5d" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="d426c5c8767043c7395db1cca595b3fa0425136b" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="ce6d05e9a6db418b38cb8d0047d952e181573122" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="7c8938bdbee2fe9f152f527d6b93b7eb1489f777" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="ca1caa35cf0c499107950fb5349ea24765913ebc" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="e3fca94413771c9e7763151d705e9aad6cf2b47a" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="0a16266f87f1f2e6fb7b51b7676206c195e10770" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ef3f340f908d8046abf0ce38f10fc4cc94fc8164" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="0a891ee899410469ac4e82ca80dd5d55f986f679" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
