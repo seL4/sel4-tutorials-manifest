@@ -28,7 +28,7 @@
   <project name="polly" path="tools/polly" remote="polly" revision="d55d5c3c37a626476883ab501d15f4e88873006b" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="051d32beab6753eb9cc3f61b91467bd612b72408" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="55ad2c4dca540bc948f37ac6790aac3decafcdce" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="2c39ace1ba20d806ffdb09a9cfb2223a352eebcd" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="5c4db492d793d67ff84e5ec6ea1e7f181c9b8b61" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
