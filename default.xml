@@ -22,14 +22,14 @@
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="89eced711e86e870864590686cc6c31f2ac0f5f6" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes/vm" revision="845bdadef86626a0b0d90fb6efdea1aecc5637c9" upstream="master"/>
-  <project name="capdl.git" path="projects/camkes/capdl" revision="61553e3f0c4872804c254c2367dd9657d59b960c" upstream="master"/>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="55eed260bd9f1154e5309693bd7d4234599a0ca7" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="d000b00807d24d597ded3db1f622d42f407e135f" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="9b13f634835a337fc15929c654dc5622ad7b9405" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="93ff2a9f597279a57c6b8e4f2eec9edb9475bb86" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9f842de4bd3094475de4d57bdc7d8cc83577579c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
