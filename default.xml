@@ -29,7 +29,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="93ff2a9f597279a57c6b8e4f2eec9edb9475bb86" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="74156bbe0ad6d6fea578fa39447aa9eb8dbc5f1c" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9f842de4bd3094475de4d57bdc7d8cc83577579c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
