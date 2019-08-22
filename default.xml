@@ -17,27 +17,27 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="tools/camkes" revision="ed8b9c66f6ddf1da17bd3f75a73b77198c088179" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="f6d1ba482f0a6fbaccfcc657b4999903589cc120" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj" revision="89eced711e86e870864590686cc6c31f2ac0f5f6" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes/vm" revision="f2266d6fe520f9a46bcd32e81d707ea7b613c47a" upstream="master"/>
-  <project name="capdl.git" path="projects/camkes/capdl" revision="bc76d914a79c49fe320c103d162236099c238fb9" upstream="master"/>
-  <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="b68b7c0ddcc19597eceaa9736885d0eb010c9c83" upstream="master"/>
+  <project name="capdl.git" path="projects/camkes/capdl" revision="23f5c5931bdccfa4b71c241756ee07e61817208b" upstream="master"/>
+  <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="aed815756be925b1310fda579bc1220fcbd55b48" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="3353896f969ede4daa699ce367601e4d2cf6c81b" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="40fe7a980d1af5776db30e56268057adaaf2525a" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="69fa94e7f4b6444b0ed3adef8ea7693952ccbce3" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1de25d1106fe79d77d3f318620fd510d749fad38" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">
+  <project name="seL4.git" path="kernel" revision="1387bfeb5106452bfc164e85b396b36c012fd894" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="2925818e7c2ba30bb8742834c2c8c5024efe1caa" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="2add6b7fe4a9081204b021cacd9676e51673dfac" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="0bc41f0ec259252b8bb2caf51b068a0755722b1e" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="de5c6cd0fc151d11e79d599afe96a1fc1cc49deb" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="a0bf1d576ad18830df4266c4ee0b16d6c7a4c713" upstream="master"/>
 </manifest>
