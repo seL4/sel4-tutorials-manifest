@@ -25,11 +25,11 @@
   <project name="capdl.git" path="projects/camkes/capdl" revision="8298bfaf0ea8d0304d0238bb7e5052c94ac58c74" upstream="master"/>
   <project name="global-components.git" path="projects/camkes/global-components" remote="sel4proj" revision="8f3d4dcc51d3897d22b874e0668dbc9ea467e2b2" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="53a22343832f1b5310c93db51a3b04199c78bb49" upstream="sel4"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="98b5e28c04054683bcf63593460361794d398aaf" upstream="master"/>
-  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="74e282de2152818a172997509ebb7e15e30aaadb" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="be9469d568aa20f34574107bf70f8f730d2575eb" upstream="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
   <project name="pruner.git" path="tools/pruner" revision="9b112d39e8af68db33d848966816ee12f14a6f4f" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7798b4767dcb7bcd3699f191f685435cfa645518" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="58b6f3503ea7e48d5891b43fcae13911928bb50b" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="0d668a1695d7c287c3c7bb1a789fd8b6114b3bd3" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9cb6d8b67e85a0d95d8f3ea0b58566efdcb2f824" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
   </project>
@@ -38,6 +38,6 @@
     <linkfile dest="init" src="init.py"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="ffbc57f187a3dafeb840c899e87b0236ba5574ec" upstream="master"/>
+  <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="d51a3598b95c952953f85885b1a5aecc910277eb" upstream="master"/>
 </manifest>
