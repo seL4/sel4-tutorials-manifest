@@ -24,9 +24,7 @@
     <default revision="master" remote="seL4"/>
 
     <!-- tools for building -->
-    <project name="seL4_tools.git" path="tools/seL4" revision="master">
-        <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt" />
-    </project>
+    <project name="seL4_tools.git" path="tools/seL4" revision="master"/>
 
     <!-- C runtime -->
     <project remote="sel4proj" name="sel4runtime" path="projects/sel4runtime"/>
@@ -41,18 +39,18 @@
     <project name="util_libs.git" path="projects/util_libs" revision="master"/>
 
     <!-- all the CAmkES tools and libraries -->
-    <project name="camkes-tool.git" path="tools/camkes" revision="master">
+    <project name="camkes-tool.git" path="projects/camkes-tool" revision="master">
         <linkfile src="docs/index.md" dest="README-camkes.md"/>
     </project>
 
     <!-- all the capDL tools and libraries -->
-    <project name="capdl.git" path="projects/camkes/capdl" revision="master"/>
+    <project name="capdl.git" path="projects/capdl" revision="master"/>
 
     <!-- tool for removing excess functions from C code -->
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- global CAmkES components and interfaces -->
-    <project remote="sel4proj" name="global-components.git" path="projects/camkes/global-components" revision="master"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components" revision="master"/>
 
     <!-- seL4-independent libraries -->
     <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs" revision="master"/>
@@ -61,11 +59,10 @@
     <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj">
         <linkfile src="README.md" dest="README.md"/>
         <linkfile src="init.py" dest="init"/>
-        <linkfile src="settings.cmake" dest="settings.cmake"/>
     </project>
 
-    <project name="camkes-vm.git" path="projects/camkes/vm"/>
-    <project name="camkes-vm-linux.git" path="projects/camkes/vm-linux" remote="sel4proj"/>
+    <project name="camkes-vm.git" path="projects/camkes-vm"/>
+    <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj"/>
     <project name="polly" remote="polly" path="tools/polly" />
 
 </manifest>
