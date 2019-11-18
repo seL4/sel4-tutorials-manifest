@@ -23,13 +23,13 @@
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="57f29aaa0815d863d00a0d9baf36bc65f3b0f374" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="45047175337bc819e7d5aa344f376fb49c2ab4e8" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8771a334028d95f0ef10347947ab09943f4a58aa" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="6b4b5f9650a9a3b0aa7e1151bf82750cb3156e93" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="31dd6a7d4beda083b1912347ad52bf2288fc53c2" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="f92793e07852f8672fe5a4cd7cd4688f56b889cf" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="57872537e3522948f284c5cf52cb6dedb32cb237" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="2fdee6070bd3e0861b2120bfe4cf82721b7ec513" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="586ab96254fc5af6bb1a7bab0b0ad6cacf1dfe87" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="d352723735727e90a0faa75bbd5e97d0d5606dea" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="afbad19d98166ff6c2b92696f598e92dc75da6ee" upstream="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ad90b20b08f97a8e678266a8237a6c68e996909b" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
