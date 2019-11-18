@@ -17,7 +17,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="aa3db80ffbcea8f4996d744e4d64aef75d9ef618" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e9a77f745f5bab9f95bbb245f96e26e38229ec9b" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
@@ -25,9 +25,9 @@
   <project name="capdl.git" path="projects/capdl" revision="45047175337bc819e7d5aa344f376fb49c2ab4e8" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8771a334028d95f0ef10347947ab09943f4a58aa" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="70da59a9874f0268394fe3b30c83558eccc393f0" upstream="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="31dd6a7d4beda083b1912347ad52bf2288fc53c2" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="f92793e07852f8672fe5a4cd7cd4688f56b889cf" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="6b8c09a6d9eacf13a56e8d225d930baa615bf882" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="57872537e3522948f284c5cf52cb6dedb32cb237" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="586ab96254fc5af6bb1a7bab0b0ad6cacf1dfe87" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="d352723735727e90a0faa75bbd5e97d0d5606dea" upstream="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ad90b20b08f97a8e678266a8237a6c68e996909b" upstream="master">
