@@ -30,7 +30,7 @@
   <project name="seL4.git" path="kernel" revision="ea4c8cb163bd6b8379dfa039207dce6c27e95cf2" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="996f4e635a782c614712ace61842bc3c0e40bf3d" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="694947700ea4b2429be748d244d90675ac263594" upstream="master"/>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="844599c34e9c501a31a499af6b1f549491ee9839" upstream="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="b4fe45f4a8cf571a0b081b59738e20f11d5a87e5" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
