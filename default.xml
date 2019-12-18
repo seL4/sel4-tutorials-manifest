@@ -23,7 +23,7 @@
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="a0d7817713d3996925c05bb3fd43697f7df452d4" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="a0b4d83e53efb8b1d420493be460b689a1e43d50" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="ff50aee8272fc9aaa43cd1cb9835c179a9c5fe70" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="aec03b60bfbb0217ddbc43d1fbc871d44a5638a0" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="10363d4f2f5bb99141bc961e03c367f5ed7f011c" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="fb86b0063204b50aaa4fac733aa24290b8284cab" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="9571f8cb1538a555288f0ec4005cb0f475365c27" upstream="master"/>
@@ -35,5 +35,5 @@
     <linkfile dest="init" src="init.py"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="c688331afc8be8f6bcb24739966f9d87cd27b71a" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="94f111123dd882b5f61f9381201ace3f54c5c177" upstream="master"/>
 </manifest>
