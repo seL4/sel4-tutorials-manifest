@@ -35,5 +35,5 @@
     <linkfile dest="init" src="init.py"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="94f111123dd882b5f61f9381201ace3f54c5c177" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="46b8f8807e305392bc685cd7e9e94a8588d39e07" upstream="master"/>
 </manifest>
