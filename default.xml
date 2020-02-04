@@ -29,6 +29,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="728433df0a165b270171f792562fa6fa363f620d" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="b2086f54e121b19490a391e7d9db52739a881281" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="7ae68ec7f731156efb3bc52e9ff9795c50ca641f" upstream="master"/>
+  <project name="sel4_projects_libs.git" path="projects/sel4_projects_libs" remote="sel4proj" revision="ac60baf175960329314f4dcfde8dc70f020a8e11" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="8008badd8c4a9ec8ca60497030fab32981b41245" upstream="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="002cc97a8e6ce54dca6813f445e47a36848ad3f3" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
