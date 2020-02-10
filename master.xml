@@ -23,8 +23,8 @@
 
     <default revision="master" remote="seL4"/>
 
-    <!-- the sel4 kernel -->
-    <project name="sel4.git" path="kernel" revision="master"/>
+    <!-- the seL4 kernel -->
+    <project name="seL4.git" path="kernel" revision="master"/>
 
     <!-- tools for building -->
     <project name="seL4_tools.git" path="tools/seL4" revision="master"/>
