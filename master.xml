@@ -36,6 +36,7 @@
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
     <!-- seL4-specific libraries -->
+    <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="master"/>
     <project name="seL4_libs.git" path="projects/seL4_libs" revision="master"/>
 
     <!-- seL4-independent libraries -->
