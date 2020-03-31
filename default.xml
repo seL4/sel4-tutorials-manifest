@@ -24,11 +24,11 @@
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="49f74a093703927bccc4c1c2bd6c0e2583f4f664" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="a66a1b307bebe3399787287cc0b0d437926f89a0" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8af97f2e64448a1f47cba1657a2a5a5defc1f2bc" upstream="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="a3b8da29b70f1b794513a8cd6a007562865a1e53" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="b39fc25f56d7e7fcc758f8010abb4fc603e738ed" upstream="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="5fa79f91fab96b17a9b753cca568a3c5969e85a7" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="18015518567ef371935c54e8f47cef8b99396fa4" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="8fbe6c089edc4f9cb02a6d31402055158bc2b6d8" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="dda85f2cec532dee59a5864a4912a976da3700da" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1f177036a60d8b473a9c3ffc3858a62e73c2e224" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="eac35bb49009792a9dc38705018bee0ea72709ad" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="392622a8ff030a8d2592b877e1afb20927ee6dc9" upstream="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ba871d7609a5f44904c31335260c2993f4c57e75" upstream="master">
@@ -36,5 +36,5 @@
     <linkfile dest="init" src="init.py"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="b6d55d8a655d83a46a334cd929f610b66fe909e9" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="6250ac9ca2eadb1cf7d785802e92f17263415e48" upstream="master"/>
 </manifest>
