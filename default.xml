@@ -17,12 +17,12 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="9ff575a27a2de04fea9ff7766fdfabf0c97e178b" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="4b6bf2477575b1fcd94ef8486aa0c2c1b39c35f5" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="92274fb4909343bdf242383b5ffa19fe2cf1caa7" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="49f74a093703927bccc4c1c2bd6c0e2583f4f664" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="4a156d56be014dc52366e2bc4f3ab5324b7e83b6" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="13a1983e8a1b9c0307b5163288c2e1969d44a373" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="221417ed93019b6fc63427ecd5a88257a472da99" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="0b3806e193b668fbb9b70c9aa70735b29396323d" upstream="master"/>
