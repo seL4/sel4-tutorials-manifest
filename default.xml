@@ -17,7 +17,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="eadf71b5c44ae4528c73b21929bc59154e07f1a9" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="153c2c80577f0f9345876dbd109c66d0ea75121c" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="92274fb4909343bdf242383b5ffa19fe2cf1caa7" upstream="master"/>
@@ -36,5 +36,5 @@
     <linkfile dest="init" src="init.py"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="56bab2bfbd75d7d2e8eccba86deb30f1fca4eee0" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="731c49101fac8ce5281001aa3e90883e7ca09bd9" upstream="master"/>
 </manifest>
