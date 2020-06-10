@@ -25,12 +25,12 @@
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="cb30c4b7bf15b32d4fead591b92722d2e102c43b" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="3bf7643ffc2dcdefd341b1fb7a9a4caeb5bec1d0" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
-  <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="0b3806e193b668fbb9b70c9aa70735b29396323d" upstream="master"/>
+  <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="576d844f14d3963dffb42a9b0741626d9bc5f249" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="cfbfec4d8730607d28e9fc662744a4a61a3e35dd" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="fb71ef926ac0616aa57a9eed6989f45a7d4f735c" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="827fd621643c4055460f175c5da4f834cd369f60" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="a46a435a596ccb2cb0c559ed7976035b567a3ddb" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="8dc52bb3181b4e39431b9865a4284f3f9364ccdb" upstream="master"/>
-  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="1a7e4d5368b20a60eb855529eb44dd8d7457c2d7" upstream="master"/>
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="3f04d3acd67a60ca51ff8cc7ed44fb4308966357" upstream="master"/>
   <project dest-branch="master" name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ba871d7609a5f44904c31335260c2993f4c57e75" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
