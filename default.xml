@@ -23,7 +23,7 @@
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="659a510b22bd9eaf956e905b87fec90f9be714b1" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="0aa76f13f35d310c754b497ade3c3e6b7634a295" upstream="master"/>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="a8dd0da6af809e6d9d61236cb64256549a2cd146" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="f56cefdd3b592196268fde07905d744a0fc4d980" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="1d340cdc861a6f4b86eb2d2ff8105a2a7731c62b" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="dc0330177231aec6bbfaa53ee58d279c875b520c" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="cc8ba39fe8dad3b495d4b1184d1bb02f557de5e7" upstream="master"/>
