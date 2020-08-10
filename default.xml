@@ -22,12 +22,12 @@
   </project>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="659a510b22bd9eaf956e905b87fec90f9be714b1" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="1c5e168d0fd588b74d6abcdf66bb07777519191f" upstream="master"/>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="9c62d7b36788c22c03cee205fdb2032d84bd658a" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="54c539cb8c1baf5f9fe4d313724be2b226759b2b" upstream="master"/>
   <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="32d76a8555b4fbe7603541f807145496cdbccf38" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="31f4ab454948657dfe827ebb3885c03e86cff9bb" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="84992c890d9e5012368a651f4c21a330341fbcb4" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="4fc3a2dff638c2c49966abb092eed4ef6351856a" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="dc74a3a31b023b2522b0f1da2906f9a1149236ce" upstream="master"/>
   <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="bb8d0ef98e87c0d9738037e519c0cd36f9196e6e" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="ccc38660229116bd26807c7012636c70e1c873f3" upstream="master"/>
