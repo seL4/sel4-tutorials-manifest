@@ -17,24 +17,24 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="98a4fdf8cce954b911df9ae3f4b3671f3d785bfd" upstream="master">
+  <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="abfb4a71d6f81dc3ad91734c27da76a5fb4bbbd3" upstream="master">
     <linkfile dest="README-camkes.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="dc354df3222766b9d36672575194e33f4edda9ac" upstream="master"/>
+  <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="8217f9bde8fb71b42ede2d66632a0555bba139df" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="1c5e168d0fd588b74d6abcdf66bb07777519191f" upstream="master"/>
-  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="54c539cb8c1baf5f9fe4d313724be2b226759b2b" upstream="master"/>
-  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="14b4027afd1003fb87af9b1620cb8dcc18f24ca7" upstream="master"/>
+  <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="6b6f503abecf6f4641ef4986d09ef48c7703f6e4" upstream="master"/>
+  <project dest-branch="master" name="global-components.git" path="projects/global-components" remote="sel4proj" revision="bda1560ec68a2d75f6c3e0df7c883d8b360a5c31" upstream="master"/>
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project dest-branch="master" name="polly" path="tools/polly" remote="polly" revision="87f6eac87c181005f8d0c4bc9708e0d1e393b48d" upstream="master"/>
   <project dest-branch="master" name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="947fa8e1723948f2792df33dcd3c43b15aca6296" upstream="master"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="5fc7346c3e7f3b3ca42943beff4a78e46909fcd0" upstream="master"/>
-  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="dc74a3a31b023b2522b0f1da2906f9a1149236ce" upstream="master"/>
-  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="5078dbb0e39a769f1b7b61e8cdc6a02e78190b67" upstream="master"/>
-  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="065cc0f4e8e413ddbdb43dc88fff9f4c48f1e681" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="b0612a6f3ba1221353444a4771066d7e85d47de6" upstream="master"/>
+  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="f39d783ef3ef4ba7a795e86848a4b2652ec34eaf" upstream="master"/>
+  <project dest-branch="master" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="c15bec1db0ebc8eba0659a2a2a3a6c2696b59f17" upstream="master"/>
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="6404a788b696e069f99ed4e0a5775af81f9265f1" upstream="master"/>
   <project dest-branch="master" name="sel4-tutorials.git" path="projects/sel4-tutorials" remote="sel4proj" revision="ae6de6aeea6f73449e3e7a8ffbc03689ae2880d1" upstream="master">
     <linkfile dest="README.md" src="README.md"/>
     <linkfile dest="init" src="init.py"/>
   </project>
-  <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="4e4705c7503ea82ed8611fb4f597e66706b57309" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="2c4603aa68963e7285ba98d4133b31097d7878a6" upstream="master"/>
+  <project dest-branch="master" name="sel4runtime" path="projects/sel4runtime" remote="sel4proj" revision="b15a663ceaf7798e39fcba9909fcc5d8359337cf" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="02d04caa4dec62204eb1b024be63572d1c23f0b8" upstream="master"/>
 </manifest>
