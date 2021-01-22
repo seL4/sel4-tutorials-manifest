@@ -17,13 +17,13 @@
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="1d385b5d8c6c28466d8931ad3f417b0b130b8cf1" upstream="master" dest-branch="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="054d1f4ca111afdc99fd42a6888d54c42d7d87a8" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="7a517efc91428a1eb01c123f12b4decf3d072805" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="8aa5e8464bde2adedcca20e43d139effbeef77f6" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="13d6cc30e73117989f76e4bd31ef7f12fd5107cf" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4" dest-branch="sel4"/>
-  <project name="polly" path="tools/polly" remote="polly" revision="ac99b82f5e994c1c57c9240ff92104bb17759290" upstream="master" dest-branch="master"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="65870a4118d76e2adb2fd47ed9c2a5d8bd204d1c" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="88736edacee0d6583824befbedb337fdd4c9bb4e" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="f5f138b0c920068e0124e5b3a749fe2e6b0913db" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="3c18332edd44adefd848c895053a538c68106677" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="bee92f982525ba58758df8ad4512cdda1c0f82e6" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="ea70c6ba5e20c8b4f1937de2b2e17ea3c05803eb" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="2f97243012afb42975d29a24752675bf68f0a67a" upstream="master" dest-branch="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="ae6de6aeea6f73449e3e7a8ffbc03689ae2880d1" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
