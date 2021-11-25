@@ -29,5 +29,5 @@
     <linkfile src="init.py" dest="init"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="6e1f8136e0627e1a349a6dc08879c2999fb9957d" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="b8201ccf143452346ed5ec8c48b4cb04f0427850" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="4edaa0d42661b45773639f99331751f9eee8aa5b" upstream="master" dest-branch="master"/>
 </manifest>
