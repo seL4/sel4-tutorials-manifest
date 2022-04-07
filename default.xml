@@ -14,7 +14,7 @@
     <linkfile src="docs/index.md" dest="README-camkes.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="3eafe89fffc3decb385c1ec74c2d744a09b6327e" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/camkes-vm" revision="7642c8b00010c752e29256e82f92d214210f82f4" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm.git" path="projects/camkes-vm" revision="b7f4707f435a5cac1d8ee53ef7d3bd026b9a6d55" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="400076e80a51fc135f1b7d3d82c124a933d7ab77" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="df8b9e42ef4a7b288f2d47859dbae66db1ff1cb3" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
@@ -22,7 +22,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" revision="ff11dd472c79c2a2c9e09910b85d0fc2f965670d" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="1612a7f61d1583859373edc3cf290daa2e719d1a" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d9e53b132c32c974909078c6eb7f6d19c316e389" upstream="master" dest-branch="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="2b5a84f3c6fa5e8f897598685d967c0b75a4451f" upstream="master" dest-branch="master"/>
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="491d53e33e509850e3462d61680a6c80b70b4ef4" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="3234b1fb94dea6525e3ba3df205a453baf63c1ae" upstream="master" dest-branch="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="a8af16135b2a6ca43cf5b012ef0dd4bc4de74afd" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
