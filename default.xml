@@ -10,7 +10,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="4f7bca19312c1d3699b1f29f1e02585fa3486317" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="7c3165356fdc378f71315ecb952a54dd48bfa56e" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README-camkes.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="3eafe89fffc3decb385c1ec74c2d744a09b6327e" upstream="master" dest-branch="master"/>
@@ -24,7 +24,7 @@
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d9e53b132c32c974909078c6eb7f6d19c316e389" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="491d53e33e509850e3462d61680a6c80b70b4ef4" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="3234b1fb94dea6525e3ba3df205a453baf63c1ae" upstream="master" dest-branch="master"/>
-  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="a8af16135b2a6ca43cf5b012ef0dd4bc4de74afd" upstream="master" dest-branch="master">
+  <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="0c84c94ca99cf4648fa05058c1a1245f950c5615" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
     <linkfile src="init.py" dest="init"/>
   </project>
