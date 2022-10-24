@@ -14,7 +14,7 @@
     <linkfile src="docs/index.md" dest="README-camkes.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="cf8157fe9fda06b63f7e0f5b93391105ddcb8d04" upstream="master" dest-branch="master"/>
-  <project name="camkes-vm.git" path="projects/camkes-vm" revision="e765d8488515416821a5e1acaff91f51fe5bc661" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm.git" path="projects/camkes-vm" revision="dc017b2a757648f29143e6d303d01c3005309ccf" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="b7f15666a09339b688f5402b96909392c3cbf93c" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
