@@ -10,13 +10,13 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="57fd6ef6bc1e38121a4a7f9df94d915fb2708bae" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="bc0c86dcdeb9448b767aa11431581961acf1fd92" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README-camkes.md"/>
   </project>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="46fb8b6e450eebf0f78adcd45d73fdba48c960bf" upstream="master" dest-branch="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="964f5e5d52a88eee0b15f5825322bec518c559a6" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="3fa3a1b5b57c67175d109e2fe15a42aa641ee601" upstream="master" dest-branch="master"/>
-  <project name="global-components.git" path="projects/global-components" revision="908195f62996eb6211a3c053a15634dd5b1f53ba" upstream="master" dest-branch="master"/>
+  <project name="global-components.git" path="projects/global-components" revision="25dee8dac7a730e8e8befb273623a5b5b7d080df" upstream="master" dest-branch="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="524777b794762854214e6eff91bcafba261e0b42" upstream="master" dest-branch="master"/>
