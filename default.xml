@@ -23,7 +23,7 @@
   <project name="seL4.git" path="kernel" revision="697dfb8b9e014788eca228df7cb217406f36d304" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="12d0d9739f1f7b262f62f6c912d64b87f9abbd07" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="97360824eebc80e9a68fef9ef699f3c0ff8bd792" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="2cac3e789e1e1cde5eb50710735360a509b71e82" upstream="master" dest-branch="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="fa87eeddd8fb458cf0464157cab0fab0bb31c3cf" upstream="master" dest-branch="master"/>
   <project name="sel4-tutorials.git" path="projects/sel4-tutorials" revision="93af3aad98cc0d02141adfa91c43e78d5beb7e1c" upstream="master" dest-branch="master">
     <linkfile src="README.md" dest="README.md"/>
     <linkfile src="init.py" dest="init"/>
