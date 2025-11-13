@@ -17,10 +17,10 @@
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="ad66b659b31277384e96f7fc1b9ad93b350e575f" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="9d4ca9a9c2cbd1aaa759cd7ea59bf7e0f65437bd" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="ad0d2891ff5f15a37de2980e103b7024960b5a26" upstream="master" dest-branch="master"/>
-  <project name="musllibc.git" path="projects/musllibc" revision="96f0f505e6c05448074ed366368459ac9a6dbd60" upstream="sel4" dest-branch="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
   <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="259b2c747c9558e18d2356f5c769a36d3e7cd41a" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" revision="aa329f9476a84dc4025010c6cbc8166a30f0350b" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="e0fdf1c235d9bd69295853efd0901625e1434f17" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="2580739bde15ec0dac1bef43a4e313e3752b7692" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="0e06bebf4a3f0c21317c6877e0079f637e021562" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="26f94df7e97a04f8ee49c1e94a0aa12036581f71" upstream="master" dest-branch="master"/>
