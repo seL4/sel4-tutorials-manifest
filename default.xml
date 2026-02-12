@@ -13,7 +13,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="54db1ff2725a91cce700fe33f46dece800b10b9e" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README-camkes.md"/>
   </project>
-  <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="47fea56ac917c8542f8e8c5ad5308f3e22480c90" upstream="master" dest-branch="master"/>
+  <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" revision="f96dcc1bfc1677595767f4f478b554e344b842c7" upstream="master" dest-branch="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="ad66b659b31277384e96f7fc1b9ad93b350e575f" upstream="master" dest-branch="master"/>
   <project name="capdl.git" path="projects/capdl" revision="79624efab687e0bdbe29ce45847d1d86dd7c73ff" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" revision="ad0d2891ff5f15a37de2980e103b7024960b5a26" upstream="master" dest-branch="master"/>
